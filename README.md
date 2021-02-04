@@ -1,3 +1,5 @@
+See the [bug report](https://github.com/fabric8io/docker-maven-plugin/issues/1433)
+
 This repo demonstrates a difference in how `docker build` and `mvn docker:build` handle
 environment variables. fabric8 seems to pull any environment variable from the mvn process
 that also has a ENV entry in the Dockerfile and imports it into the docker image.
